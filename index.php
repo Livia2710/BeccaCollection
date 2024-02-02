@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="assets/logo-roupa.png" alt="Logo" class="Logo">
+        <img src="assets/logo-roupa.png" alt="Logo" class="Logo" id="logo">
 
         <Ul class="paginas-N">
             <li><a href="#">Home</a></li>
@@ -31,7 +31,7 @@
             <form action="processa.php" method="post" class="input">
 
                 <input type="text" name="nome" id="nome" placeholder="Nome Completo">
-                <input type="text" name="senha" id="senha" placeholder="Seu E-mail">
+                <input type="text" name="email" id="email" placeholder="Seu E-mail">
                 <input type="submit" value="Cadastrar" class="butão">
                 
             </form>
